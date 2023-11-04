@@ -14,6 +14,9 @@ TurboCache is a high-performance cache extension for PHP that aims to dramatical
    - `turbo_set('key', $value);` - Sets a value in the cache.
    - `turbo_get('key');` - Retrieves a value from the cache.
 
+## Test Procedure
+The testing involved creating and retrieving 10 variables in a loop of 10,000 iterations.
+
 ## Test Results
 
 The performance test results show significant improvements with TurboCache compared to memcached:
@@ -41,6 +44,9 @@ TurboCache - это высокопроизводительное расшире�
 - **Простое использование**: TurboCache предлагает простой и интуитивно понятный API, что делает его легким в использовании для разработчиков. Примеры использования включают:
    - `turbo_set('key', $value);` - Устанавливает значение в кэше.
    - `turbo_get('key');` - Извлекает значение из кэша.
+
+## Процедура тестирования
+Тестирование включало создание и извлечение 10 переменных в цикле из 10 000 итераций.
 
 ## Результаты тестирования
 

@@ -6,7 +6,7 @@ TurboCache is a high-performance cache extension for PHP that aims to dramatical
 
 ## Key Features
 
-- **Exceptional Speed**: TurboCache provides caching speeds that are 100+ times faster than traditional caching solutions like memcached.
+- **Exceptional Speed**: TurboCache provides caching speeds that are 100+ times faster than traditional caching solutions like Memcached, Reddis.
 - **Efficient Resource Utilization**: TurboCache optimizes resource utilization, ensuring maximum efficiency while minimizing memory overhead.
 - **Low-Level Optimizations**: Leveraging the power of C, TurboCache incorporates various low-level optimizations for superior performance.
 - **Seamless Integration**: TurboCache seamlessly integrates into existing PHP applications, offering an easy and straightforward caching solution.
@@ -19,7 +19,7 @@ The testing involved creating and retrieving 10 variables in a loop of 10,000 it
 
 ## Test Results
 
-The performance test results show significant improvements with TurboCache compared to memcached:
+The performance test results show significant improvements with TurboCache compared to Memcached:
 
 - **Write Time**:
   - Memcached: 1010.32 milliseconds
@@ -37,7 +37,7 @@ TurboCache - это высокопроизводительное расшире�
 
 ## Основные особенности
 
-- **Исключительная скорость**: TurboCache обеспечивает скорость кэширования, превышающую в 100 раз традиционные решения кэширования, такие как memcached.
+- **Исключительная скорость**: TurboCache обеспечивает скорость кэширования, превышающую в 100 раз традиционные решения кэширования, такие как Memcached, Reddis.
 - **Эффективное использование ресурсов**: TurboCache оптимизирует использование ресурсов, обеспечивая максимальную эффективность при минимальном использовании памяти.
 - **Низкоуровневые оптимизации**: Используя мощь языка C, TurboCache включает различные низкоуровневые оптимизации для высокой производительности.
 - **Безшовная интеграция**: TurboCache легко интегрируется в существующие приложения на PHP, предлагая простое и понятное решение для кэширования.
@@ -50,7 +50,7 @@ TurboCache - это высокопроизводительное расшире�
 
 ## Результаты тестирования
 
-Результаты тестирования производительности показывают значительное улучшение с использованием TurboCache по сравнению с memcached:
+Результаты тестирования производительности показывают значительное улучшение с использованием TurboCache по сравнению с Memcached:
 
 - **Время записи**:
   - Memcached: 1010.32 миллисекунд

@@ -28,8 +28,8 @@ The performance test results show significant improvements with TurboCache compa
 
 - **Read Time**:
   - Memcached: 1206.98 milliseconds
-  - TurboCache: 3.69 milliseconds
-  - Difference: 327 times
+  - TurboCache: 2.9 milliseconds
+  - Difference: 416 times
 
 # TurboCache - Высокопроизводительное расширение кэша для PHP
 
@@ -61,6 +61,6 @@ TurboCache - это высокопроизводительное расшире�
   - 
 - **Время чтения**:
   - Memcached: 1206.98 миллисекунд
-  - TurboCache: 3.69 миллисекунд
-  - Разница: 327 раз
+  - TurboCache: 2.9 миллисекунд
+  - Разница: 416 раз
 

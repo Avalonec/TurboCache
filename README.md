@@ -74,8 +74,8 @@ TurboCache - это высокопроизводительное расшире�
    
 - **Время чтения, миллисекунд**:
   - turbo_unserialize 1039
-  - php serialize 1031 0%
-  - igbinary_serialize 1211 -16%
+  - igbinary_serialize 1031 0%
+  - php serialize 1211 -16%
   - json_decode 3860 -271%
 
 ## Размер, байт

@@ -74,10 +74,10 @@ TurboCache - это высокопроизводительное расшире�
   - json_encode 1459 -208%
    
 - **Время чтения, миллисекунд**:
-  - turbo_unserialize 1039
-  - igbinary_unserialize 1031 0%
-  - php unserialize 1211 -16%
-  - json_decode 3860 -271%
+  - turbo_unserialize 835
+  - igbinary_unserialize 1031 -23%
+  - php unserialize 1211 -45%
+  - json_decode 3860 -362%
 
 ## Размер, байт
   - turbo_serialize 980

@@ -64,20 +64,20 @@ TurboCache - это высокопроизводительное расшире�
   - TurboCache: 2.9 миллисекунд
   - Разница: 416 раз
  
-Скорость
-turbo_serialize 473
-php serialize 668 -41%
-igbinary_serialize 1101 -132%
-json_encode 1459 -208%
+## Скорость
+  - turbo_serialize 473
+  - php serialize 668 -41%
+  - igbinary_serialize 1101 -132%
+  - json_encode 1459 -208%
 
-turbo_unserialize 1039
-php serialize 1031 0%
-igbinary_serialize 1211 -16%
-json_decode 3860 -271%
+  - turbo_unserialize 1039
+  - php serialize 1031 0%
+  - igbinary_serialize 1211 -16%
+  - json_decode 3860 -271%
 
-Размер
-igbinary_serialize 1003
-turbo_serialize 1072 -6%
-json_encode 1096 -9%
-php serialize 1448 -44%
+## Размер
+  - igbinary_serialize 1003
+  - turbo_serialize 1072 -6%
+  - json_encode 1096 -9%
+  - php serialize 1448 -44%
 

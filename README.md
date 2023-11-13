@@ -6,7 +6,7 @@ TurboCache is a high-performance cache extension for PHP that aims to dramatical
 
 ## Key Features
 
-- **Exceptional Speed**: TurboCache provides caching speeds that are 100+ times faster than traditional caching solutions like Memcached, Reddis.
+- **Exceptional Speed**: TurboCache provides caching speeds that are 400+ times faster than traditional caching solutions like Memcached, Reddis.
 - **Efficient Resource Utilization**: TurboCache optimizes resource utilization, ensuring maximum efficiency while minimizing memory overhead.
 - **Low-Level Optimizations**: Leveraging the power of C, TurboCache incorporates various low-level optimizations for superior performance.
 - **Seamless Integration**: TurboCache seamlessly integrates into existing PHP applications, offering an easy and straightforward caching solution.
@@ -39,7 +39,7 @@ TurboCache - это высокопроизводительное расшире�
 
 ## Основные особенности
 
-- **Исключительная скорость**: TurboCache обеспечивает скорость кэширования, превышающую в 100 и более раз традиционные решения кэширования, такие как Memcached, Reddis.
+- **Исключительная скорость**: TurboCache обеспечивает скорость кэширования, превышающую в 400 и более раз традиционные решения кэширования, такие как Memcached, Reddis.
 - **Эффективное использование ресурсов**: TurboCache оптимизирует использование ресурсов, обеспечивая максимальную эффективность при минимальном использовании памяти.
 - **Низкоуровневые оптимизации**: Используя мощь языка C, TurboCache включает различные низкоуровневые оптимизации для высокой производительности.
 - **Безшовная интеграция**: TurboCache легко интегрируется в существующие приложения на PHP, предлагая простое и понятное решение для кэширования.

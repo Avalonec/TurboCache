@@ -100,14 +100,14 @@ https://github.com/json-iterator/test-data/blob/master/large-file.json
   - turbo_serialize 1753
   - igbinary_serialize 2948 -68%
   - php serialize 3264 -86%
-  - fshmop_compress(fshmop_serialize($arr)) 4279 -144% 6.43 MB copress ratio 3.872
+  - turbo_compress(turbo_serialize($arr)) 4279 -144% 6.43 MB copress ratio 3.872
   - json_encode 4458 -154%
     
 - **Время чтения, миллисекунд**:
   - turbo_unserialize 2170
   - igbinary_unserialize 2760 -27%
   - php unserialize 2928 -34%
-  - fshmop_unserialize(fshmop_uncompress($tx)) 2945 -35%
+  - turbo_unserialize(turbo_uncompress($tx)) 2945 -35%
   - simdjson 3871 -78%
   - json_decode 7487 -245%
 

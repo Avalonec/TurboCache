@@ -94,6 +94,8 @@ TurboCache - это высокопроизводительное расшире�
   - json_decode 3860 -407%
 
 **Большой массив(24.9 MB) 100 итераций**
+https://github.com/json-iterator/test-data/blob/master/large-file.json
+
 - **Время записи, миллисекунд**:
   - turbo_serialize 1753
   - igbinary_serialize 2948 -68%

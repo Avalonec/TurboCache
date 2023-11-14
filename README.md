@@ -93,11 +93,20 @@ TurboCache - это высокопроизводительное расшире�
   - php unserialize 1211 -58%
   - json_decode 3860 -407%
 
-**Большой массив(24 MB) 100 итераций**
+**Большой массив(24.9 MB) 100 итераций**
+- **Время записи, миллисекунд**:
+  - turbo_serialize 1753
+  - igbinary_serialize 2948 -68%
+  - php serialize 3264 -86%
+  - json_encode 4458 -154%
+  - fshmop_compress(fshmop_serialize($arr)) 4279 6.43 MB copress ratio 3.872
+    
 - **Время чтения, миллисекунд**:
   - turbo_unserialize 2170
   - igbinary_unserialize 2760 -27%
   - php unserialize 2928 -34%
+  - fshmop_unserialize(fshmop_uncompress($tx)) 2945 -35%
+  - simdjson 3871 -78%
   - json_decode 7487 -245%
 
 ## Размер, байт

@@ -98,8 +98,8 @@ TurboCache - это высокопроизводительное расшире�
   - turbo_serialize 1753
   - igbinary_serialize 2948 -68%
   - php serialize 3264 -86%
+  - fshmop_compress(fshmop_serialize($arr)) 4279 -144% 6.43 MB copress ratio 3.872
   - json_encode 4458 -154%
-  - fshmop_compress(fshmop_serialize($arr)) 4279 6.43 MB copress ratio 3.872
     
 - **Время чтения, миллисекунд**:
   - turbo_unserialize 2170

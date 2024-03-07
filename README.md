@@ -136,4 +136,3 @@ https://github.com/json-iterator/test-data/blob/master/large-file.json
   - xxh3 75 -150%
   - md5 100 -233%
 
-# Вопросы и предложения avalonec@gmail.com.
